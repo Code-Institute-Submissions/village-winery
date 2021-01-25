@@ -4,7 +4,7 @@ Due to remote location it occasionally might be difficult to discover this littl
 I decided to create a web site which will not only provide an online presence,
 but will also help potential clients find the location easier, 
 browse products and services offered which is aimed towards increase of the amount of visits
-,bottles of vines sold and the owners revenue. 
+,bottles of vines sold and the owner's revenue. 
 Previous customer’s experiences will be available 
 and lastly contacting the owner for any queries using the form provided. 
 ## UX

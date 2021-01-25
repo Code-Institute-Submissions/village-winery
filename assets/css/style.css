@@ -6,17 +6,8 @@ body {
 .nav-link {
     color:#fafafa;
 }
-a.navbar-brand{ 
-    color: beige;
-}
-a {
-    background-color: transparent;
-    text-decoration: none;
-}
 
-
-
-.container-fluid {
+.container-fluid { 
     margin: 0;
     padding: 0;
 }
