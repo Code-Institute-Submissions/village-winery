@@ -1,0 +1,11 @@
+body {
+    font-family: 'Satisfy', cursive;
+}
+
+/* -------------------------------------  Navbar */
+.nav-link {
+    color:#fafafa;
+}
+a.navbar-brand {
+    color: beige;
+}
