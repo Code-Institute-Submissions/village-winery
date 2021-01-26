@@ -5,6 +5,11 @@ body {
 /* -------------------------------------  Navbar */
 .nav-link {
     color:#fafafa;
+    font-size: 700;
+}
+a:hover {
+    color: #6b6518cf;
+    text-decoration: underline;
 }
 
 .container-fluid { 

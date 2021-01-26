@@ -18,6 +18,13 @@ and lastly contacting the owner for any queries using the form provided.
 ### Features Left to Implement
 
 ## Technologies Used 
+* HTML/HTML5 used for a basic sturucture of the page and content.
+* CSS/CSS3 used to add style to the page and its content.
+* Bootsrap 4.1.3 as a framework
+* Balsamiq used for creating a wireframe
+### Wireframe
+
+
 
 ## Testing
 
