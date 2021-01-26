@@ -23,7 +23,7 @@ and lastly contacting the owner for any queries using the form provided.
 * Bootsrap 4.1.3 as a framework
 * Balsamiq used for creating a wireframe
 ### Wireframe
-
+<p><img height="350" https://github.com/kuzGo/village-winery/tree/master/assets/wireframe alt="  Wireframes" ></p>
 
 
 ## Testing
