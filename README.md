@@ -1,5 +1,5 @@
 # Village Winery 
-A family owned business is producing quality wines and organising wine tasting tours. 
+A family owned business producing quality wines and organising wine tasting tours. 
 Due to remote location it occasionally might be difficult to discover this little hidden gem.
 I decided to create a web site which will not only provide an online presence,
 but will also help potential clients find the location easier. 
@@ -18,9 +18,28 @@ and lastly contacting the owner for any queries using the form provided.
 This website is aimed towards those who are wine collectioners, connoisseurs, bars or restaurants owners looking for a quality wine suplier 
 or just a people who want to enjoy a good glass of wine in a calming environment.
 
-## Features
+Website's design is responsive and mobile devices first friendly. Design is minimalistic and elegant with all features included to 
+create a positive user experiences.
 
-### Existing Features
+## Features
+### Landing Page
+* Navbar
+   * Home
+   * Our Wines
+   * Gallery
+   * Contact Us
+* Hero image
+* Map of the location
+* Footer with links to social media
+### Our Wines
+* A photos with different selection of wines
+* A text eplaining about the products
+* Order online button
+### Gallery
+* Number of interior and exterior photos
+### Contact Us
+* Contact form for getting in touch
+
 
 ### Features Left to Implement
 
