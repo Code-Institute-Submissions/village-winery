@@ -1,18 +1,32 @@
 body {
-    font-family: 'Satisfy', cursive;
+    font-family: 'Cinzel', serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* -------------------------------------  Navbar */
 .nav-link {
-    color:#fafafa;
+    color:#333030;
     font-size: 700;
+    font-family: "Lato",sans-serif;
 }
+/* This code  overrides Bootstrap's default blue color */
 a:hover {
     color: #86662d;
-    text-decoration: underline;
 }
-
 .container-fluid { 
     margin: 0;
     padding: 0;
+}
+/* This code makes logo circle */
+.logo{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+
+}
+.navbar-brand{
+    font-family: "Cinzel",sans-serif;
+    font-weight: 600;
+    letter-spacing: 2px;
 }
