@@ -10,9 +10,9 @@ and lastly contacting the owner for any queries using the form provided.
 ## UX
 ### User Stories
 
-User 1 : As a wine lover I want to find a place where I can taste quality wine.
-User 2 : I want to find a remote, romantic location and enjoy a glass of wine.
-User 3 : As a wine collectioner I want to be able to order a bootle of wine from different parts of the world.
+* User 1 : As a wine lover I want to find a place where I can taste quality wine.
+* User 2 : I want to find a remote, romantic location and enjoy a glass of wine.
+* User 3 : As a wine collectioner I want to be able to order a bootle of wine from different parts of the world.
 
 
 This website is aimed towards those who are wine collectioners, connoisseurs, bars or restaurants owners looking for a quality wine suplier 
