@@ -1,15 +1,22 @@
 # Village Winery 
-A small,family owned business is producing quality wines and organising vine tasting tours. 
+A family owned business is producing quality wines and organising wine tasting tours. 
 Due to remote location it occasionally might be difficult to discover this little hidden gem.
 I decided to create a web site which will not only provide an online presence,
-but will also help potential clients find the location easier, 
-browse products and services offered which is aimed towards increase of the amount of visits
+but will also help potential clients find the location easier. 
+Ability to browse products and services offered which is aimed towards increase of the amount of visits
 ,bottles of vines sold and the owner's revenue. 
 Previous customer’s experiences will be available 
 and lastly contacting the owner for any queries using the form provided. 
 ## UX
+### User Stories
+
+User 1 : As a wine lover I want to find a place where I can taste quality wine.
+User 2 : I want to find a remote, romantic location and enjoy a glass of wine.
+User 3 : As a wine collectioner I want to be able to order a bootle of wine from different parts of the world.
 
 
+This website is aimed towards those who are wine collectioners, connoisseurs, bars or restaurants owners looking for a quality wine suplier 
+or just a people who want to enjoy a good glass of wine in a calming environment.
 
 ## Features
 
