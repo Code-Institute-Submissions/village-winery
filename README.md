@@ -55,6 +55,7 @@ create a positive user experiences.
 * [__Online Convert__](https://image.online-convert.com) used to convert photos to webp format.
 * [__Google Fonts__](https://fonts.google.com) used for projects fonts.
 * [__Gitpod__](https://gitpod.io) used as a development environment.
+* [Canva](https://www.canva.com) used for logo creting.
 ### Project Wireframe
 <p><img height="350" src="https://github.com/kuzGo/village-winery/tree/master/assets/wireframe" alt="  Wireframes" ></p>
 
@@ -64,7 +65,9 @@ create a positive user experiences.
 ## Deployment
 
 ### Credits 
-
+ #### Photographers:
+ * Pexel
+     * Elle Hughes
 ## Content
 
 ## Acknowledgements
