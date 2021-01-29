@@ -56,6 +56,7 @@ create a positive user experiences.
 * [__Google Fonts__](https://fonts.google.com) used for projects fonts.
 * [__Gitpod__](https://gitpod.io) used as a development environment.
 * [Canva](https://www.canva.com) used for logo creting.
+8 [Fontawesome](https://fontawesome.com) used for adding icons.
 ### Project Wireframe
 <p><img height="350" src="https://github.com/kuzGo/village-winery/tree/master/assets/wireframe" alt="  Wireframes" ></p>
 
