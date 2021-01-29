@@ -27,6 +27,41 @@ a:hover {
 }
 .navbar-brand{
     font-family: "Cinzel",sans-serif;
-    font-weight: 600;
+    font-weight: 700;
     letter-spacing: 2px;
+   
+}
+
+/* -------------------------------------  Hero Image*/
+.background-img{
+    height: 600px;
+    width: 100%;  
+}
+
+/* -------------------------------------  Our story section */
+h2,h3 {
+    display: block;
+    font-family: "Cinzel",sans-serif;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 10px;
+    color: #333030;
+    
+}
+p {
+    font-family: "Lato",sans-serif;
+    text-align: center;
+    color: #333030;
+    padding-left: 2px;
+}
+.summer-house{
+    width:200px;
+    height: 200px;
+    border-radius: 50%;
+    padding: 16px;
+    border-style: dashed;
+    border-width: 1px;
+    border-color: #333030;
+   
+
 }
