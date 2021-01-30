@@ -25,7 +25,7 @@ a:hover {
     border-radius: 50%;
 
 }
-.navbar-brand{
+.navbar-brand {
     font-family: "Cinzel",sans-serif;
     font-weight: 700;
     letter-spacing: 2px;
@@ -34,10 +34,8 @@ a:hover {
 
 /* -------------------------------------  Hero Image*/
 .background-img{
-    height: 600px;
+    height: 90vh;
     width: 100%;
-    margin: 0;
-    padding: 0;  
 }
 
 /* -------------------------------------  Our story section */
