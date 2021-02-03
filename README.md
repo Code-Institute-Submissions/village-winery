@@ -12,7 +12,7 @@ and lastly contacting the owner for any queries using the form provided.
 
 * User 1 : As a wine lover I want to find a place where I can taste quality wine.
 * User 2 : I want to find a remote, romantic location and enjoy a glass of wine.
-* User 3 : As a wine collectioner I want to be able to order a bootle of wine from different parts of the world.
+* User 3 : As a wine collectioner I want to be able to order a botle of wine from different parts of the world.
 
 
 This website is aimed towards those who are wine collectioners, connoisseurs, bars or restaurants owners looking for a quality wine suplier 
@@ -55,8 +55,8 @@ create a positive user experiences.
 * [__Online Convert__](https://image.online-convert.com) used to convert photos to webp format.
 * [__Google Fonts__](https://fonts.google.com) used for projects fonts.
 * [__Gitpod__](https://gitpod.io) used as a development environment.
-* [Canva](https://www.canva.com) used for logo creting.
-8 [Fontawesome](https://fontawesome.com) used for adding icons.
+* [__Canva__](https://www.canva.com) used for logo creting.
+* [__Fontawesome__](https://fontawesome.com) used for adding icons.
 ### Project Wireframe
 <p><img height="350" src="https://github.com/kuzGo/village-winery/tree/master/assets/wireframe" alt="  Wireframes" ></p>
 
@@ -69,6 +69,7 @@ create a positive user experiences.
  #### Photographers:
  * Pexel
      * Elle Hughes
+     * David
 ## Content
 
 ## Acknowledgements
