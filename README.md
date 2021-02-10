@@ -70,6 +70,10 @@ create a positive user experiences.
  * Pexel
      * Elle Hughes
      * David
+     * Hunt on photos studio
+     * Bruno Cantuária
+     * Balázs Burján
+     * Julia Volk
 ## Content
 
 ## Acknowledgements

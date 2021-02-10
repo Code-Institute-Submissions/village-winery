@@ -1,6 +1,6 @@
 :root {
-    --nav-link--color: #0a0808;
-    --summer-house--border--color:#333030;
+    --nav-link--color: #040101;
+    --summer-house-border-color:#333030;
     --navbar-toggler--backround--color:#b59474;
     --story-section--backround--color:#f9f8f5;
     --navbar-toggler-icon--color:#333030;
@@ -18,7 +18,7 @@ body {
 /* -------------------------------------  Navbar */
 .navbar {
     background-color:#b59474 ;
-    color:#f9f8f5;
+    
     
     
 }
@@ -27,6 +27,9 @@ body {
     font-family: "Lato",sans-serif;
     font-size: larger;
     justify-content: center;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: var(--nav-link--color);
 }
 
 .navbar-light .navbar-nav .nav-link:hover{
@@ -51,7 +54,7 @@ body {
     font-family: "Cinzel",sans-serif;
     letter-spacing: 2px;
     font-size: 25px;
-    color: #333030;
+    color: var(--nav-link--color);
 }
 .navbar-toggler {
     border-style: none;
@@ -61,8 +64,6 @@ body {
 /* -------------------------------------  Hero Image*/
 .bg-image-container {
     height: 90vh;
-    /* background: url(../images/background-pic.webp) no-repeat bottom left fixed;
-    background-size: cover; */
     display: flex;
     position: relative;
    
@@ -75,7 +76,7 @@ h2,h3,h4 {
     font-weight: 500;
     text-align: center;
     margin-top: 10px;
-    color: #333030;
+    color: var(--nav-link--color);
 }
 h6 {
  font-family: "Roboto",sans-serif;
@@ -103,7 +104,7 @@ h6 {
     padding: 16px;
     border-style: dashed;
     border-width: 1px;
-    border-color: var(--summer-house--border--color);
+    border-color: var(--summer-house-border-color);
 }
 .story-section {
     background-color: var(--story-section--backround--color);
@@ -114,16 +115,22 @@ h6 {
     text-align: center;
     background-color: var(--reviews-section--background-color);
 }
+ .reviews-text {
+    text-align: center;
+    padding-bottom: 10px;
+}
+.reviews-text i {
+    font-size: 35px;
+}
 /* -------------------------------------Fontawesome icons */
 .icon {
     color: var(--icon--color);
     font-size: 30px;
-}
-.story-icons {
-    color: var(--reviews-section--background-color);
-    font-size: 30px;
     padding-top: 10px;
+     text-align: center;
+    
 }
+
 .gmap-style {
     width:100%;
     height: 200px;
@@ -153,9 +160,93 @@ footer {
 }
 .media-icon {
     width: 36px;
-    height: 36px;
-    border-radius: 50%;
     font-size: 18px;
     text-align: center;
     padding: 8px;
 }
+/* -------------------------Our wines section */
+.wine-headers {
+    font-family: "Cinzel",sans-serif;
+    text-align: center;
+    margin-top: 25px;
+
+}
+.wine-photos {
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: 400px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.wine-text {
+    font-family: "Lato",sans-serif;
+    text-align: center;
+}
+.wine-buttons {
+display: block;
+justify-content: center;
+width:60%;
+margin-left: 20%;
+margin-bottom: 10px;
+border-radius: 23px;
+}
+.btn-outline-secondary:hover {
+    color: #f9f8f5;
+    border: #d2a659;
+    border-style: solid;
+    border-radius: 23px;
+}
+.wines-selection {
+    background-color:#f9f8f5;
+}
+/* ------------------------- Contact form section */
+.contact-bg {
+    background: url(/assets/images/grapes.webp) no-repeat bottom right fixed;
+    /* height: 90vh; */
+    background-size: cover;
+}
+.jumbo-container {
+    background-color: transparent;
+    text-align: center;
+   
+}
+.form-control {
+    background-color: transparent;
+    color: #f9f8f5;
+}
+.lead,
+.display-4,
+label {
+    color:#f9f8f5 ;
+}
+.form-cover {
+    background-color: rgba(0,0,0,0.3);
+    width: 100%;
+    height: 100%;
+}
+.btn-dark {
+    border-radius: 23px;
+    width: 60%;
+}
+
+.btn-dark:hover {
+    color: #f9f8f5;
+    border: #d2a659;
+    border-style: solid;
+    border-radius: 5px;
+    text-decoration: none;
+    border-radius: 23px;
+    width: 60%;
+}
+/* -------------------------Gallery section */
+
+.image1,
+.image2,
+.image3 {
+    width: 100%;
+    height: 55vh; 
+    padding: 0;
+    margin: 0;
+}
+ 
