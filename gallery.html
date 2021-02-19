@@ -16,13 +16,12 @@
 </head>
 
 <body>
-
     <!-- Navbar -->
     <div class="container-fluid navbar-container">
         <nav class="navbar navbar-expand-sm navbar-light">
-            <a href="index.html" class="navbar-brand ml-2">
+            <a href="index.html" aria-label="Go to home" rel="noopener" class="navbar-brand ml-2">
                 <img class="mr-3 logo" src="assets/images/logo.webp" alt="Village Winery logo">
-                <span class="navbar-text">Village Winery </span>
+                <span class="navbar-text d-none d-xs-inline">Village Winery </span>
             </a>
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
                 data-target="#villageNavbarDropdpwn" aria-controls="villageNavbarDropdpwn" aria-expanded="false"
@@ -31,79 +30,106 @@
             <div class="collapse navbar-collapse" id="villageNavbarDropdpwn">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item ml-auto">
-                        <a class="nav-link active" href="index.html">Home</a>
+
+                        <a class="nav-link active" aria-label="Go to home page" href="index.html">Home</a>
                     </li>
                     <li class="nav-item ml-auto">
-                        <a class="nav-link" href="wines.html">Our Wines</a>
+                        <a class="nav-link" aria-label="Go to order wines online page" href="wines.html">Our Wines</a>
                     </li>
                     <li class="nav-item ml-auto">
-                        <a class="nav-link" href="gallery.html">Gallery</a>
+                        <a class="nav-link" aria-label="Go to website gallery" href="gallery.html">Gallery</a>
                     </li>
                     <li class="nav-item ml-auto">
-                        <a class="nav-link" href="contact.html">Contact Us</a>
+                        <a class="nav-link" aria-label="Go to contact form" href="contact.html">Contact Us</a>
                     </li>
                 </ul>
             </div>
         </nav>
     </div>
-    <section id="photo-gallery">
-        <div class="container-fluid">
-            <div class="row no-gutters">
-                <div class="col-lg-4 col-md-4 col-sm-6">
-                    <img src="/assets/images/bottles-shelf.webp" class="image1" alt="Bottles on the shelf">
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6">
-                    <img src="/assets/images/bottles.webp" class="image2" alt="Bottles of wine">
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6">
-                    <img src="/assets/images/pexels-julia-volk-5272997.webp" class="image3" alt="Old bottles of wine">
-                </div>
-            </div>
-        </div>
-        <div class="container-fluid">
-            <div class="row no-gutters">
-                <div class="col-lg-3 col-md-4 col-sm-6">
-                    <img src="/assets/images/pexels-leo-woessner-3953808.jpg" class="image1" alt="Bottles on the shelf">
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6">
-                    <img src="/assets/images/pexels-ksenia-chernaya-3730914.jpg" class="image2" alt="Bottles of wine">
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6">
-                    <img src="/assets/images/pexels-ion-ceban-ionelceban-2581022.jpg" class="image3" alt="Old bottles of wine">
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6">
-                    <img src="/assets/images/grapes2.webp" class="image1" alt="Grapes in vineyard">
-                </div>
-            </div>
-        </div>
 
+    <!-- End of Navbar -->
+
+    <!-- Gallery photos section -->
+    <section class="gallery-section">
+        <h4>Village Winery Gallery</h4>
+        <hr>
+        <div class="container-fluid gallery-container">
+            <div class="row">
+                <!-- First set of 4 images -->
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <img src="/assets/images/pexels-leo-woessner-3953808.jpg" class="gallery-image"
+                        alt="Bottles on the shelf">
+
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <img src="/assets/images/pexels-ksenia-chernaya-3730914.jpg" class="gallery-image"
+                        alt="Bottles of wine">
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <img src="/assets/images/bottles.webp" class="gallery-image" alt="Old bottles of wine">
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <img src="/assets/images/pexels-balázs-burján-3487715.jpg" class="gallery-image"
+                        alt="Grapes in vineyard">
+                </div>
+
+                <!-- Second set of 3 images -->
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <img src="/assets/images/bottles-shelf.webp" class="gallery-image" alt="Bottles on the shelf">
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <img src="/assets/images/village-winery.webp" class="gallery-image" alt="Bottles of wine">
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <img src="/assets/images/pexels-julia-volk-5272997.webp" class="gallery-image"
+                        alt="Old bottles of wine">
+                </div>
+                <!-- Third set of 2 images -->
+                <div class="col-lg-7 col-md-4 col-sm-6">
+                    <img src="/assets/images/pexels-leo-woessner-3953808.jpg" class="gallery-image"
+                        alt="Bottles on the shelf">
+                </div>
+                <div class="col-lg-5 col-md-4 col-sm-6">
+                    <img src="/assets/images/pexels-ion-ceban-ionelceban-2581022.jpg" class="gallery-image"
+                        alt="Old bottles of wine">
+                </div>
+            </div>
+        </div>
+        <hr>
     </section>
 
     <!-- Website Footer -->
     <footer>
-        <div class="container-fluid">
-            <div class="row">
+
+        <div class="container">
+            <div class="row no-gutters">
                 <div class="col-sm-12">
-                    <h6>Website designed for educational purposes by KuzGo 2021</h6>
+                    <h6 style="margin-top: 15px;">Website designed for educational purposes with a lot of <span><i
+                                class="fa fa-heart"></i></span> By © KuzGo 2021</h6>
+
                 </div>
                 <div class="col-sm-12">
                     <h6>Follow us on social media:</h6>
                     <ul class="list-inlinem media-links">
                         <li class="list-inline-item">
-                            <a href="https://www.facebook.com" target="_blank">
+                            <a href="https://www.facebook.com" aria-label="Follow us on Facebook" rel="noopener"
+                                target="_blank">
                                 <i class="media-icon fab fa-facebook" aria-hidden="true"></i>
                                 <span class="sr-only">Facebook</span>
                             </a>
                         </li>
                         <li class="list-inline-item">
-                            <a href="https://www.instagram.com" target="_blank">
+
+                            <a href="https://www.instagram.com" aria-label="Follow us on Instagram" rel="noopener"
+                                target="_blank">
                                 <i class="media-icon fab fa-instagram" aria-hidden="true"></i>
                                 <span class="sr-only">Instagram</span>
                             </a>
                         </li>
                         <li class="list-inline-item">
-                            <a href="https://twitter.com" target="_blank">
-                                <i class="media-icon fab fa-twitter" aria-hidden="true"></i>
+
+                            <a href="https://twitter.com" aria-label="Follow us on Twitter" rel="noopener"
+                                  <i class="media-icon fab fa-twitter" aria-hidden="true"></i>
                                 <span class="sr-only">Twitter</span>
                             </a>
                         </li>

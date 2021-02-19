@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Village Winery, Offering wine-tasting tours, ordering wine online">
+    <meta name="keywords" content="Winery, wine-tasting,fine wines, vineyards,village, bottle of wine">
     <title>Village Winery</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -22,7 +24,7 @@
         <nav class="navbar fixed-top navbar-expand-sm navbar-light">
             <a href="index.html" class="navbar-brand ml-2">
                 <img class="mr-3 logo" src="assets/images/logo.webp" alt="Village Winery logo">
-                <span class="navbar-text">Village Winery </span>
+                <span class="navbar-text d-none d-xs-inline">Village Winery </span>
             </a>
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
                 data-target="#villageNavbarDropdpwn" aria-controls="villageNavbarDropdpwn" aria-expanded="false"
@@ -31,7 +33,7 @@
             <div class="collapse navbar-collapse" id="villageNavbarDropdpwn">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item ml-auto">
-                        <a class="nav-link active" href="index.html">Home</a>
+                        <a class="nav-link active" aria-current="true" href="index.html">Home</a>
                     </li>
                     <li class="nav-item ml-auto">
                         <a class="nav-link" href="wines.html">Our Wines</a>
@@ -46,6 +48,7 @@
             </div>
         </nav>
     </div>
+    <!-- End of Navbar -->
     <div title="Vineyard photo" class="container-fluid bg-image-container" style="background-image: url(assets/images/background-pic.webp); background-repeat:no-repeat;
  background-size: cover; background-position: bottom left; background-attachment: fixed;"></div>
     <section>
@@ -86,21 +89,11 @@
                             <h3><i class="icon fas fa-wine-glass-alt d-none d-sm-inline"></i> Wine-tasting Tours</h3>
                             <p class="story-text">
 
-                                "Tradition of grape winemaking in our family began in the early 80's. From our 50 acres
-                                of
-                                vineyard we made
-                                our first bottle of wine ranging from Cabernet Sauvignon, Merlot, Sauvignon Blanc to
-                                Chardonnay and many
-                                others. <br>Since then, our passion for making quality wines grew bigger and better. In
-                                1991
-                                we founded Village
-                                Winery and welcomed countless numbers of happy wine lovers.The wines we produced
-                                have
-                                been served in almost
-                                every part of the world. If you are in search of a glass of a fine wine, whether you
-                                prefer
-                                red,white or
-                                rose, make sure to check what we can offer.<br>We are looking forward to welcoming you."
+                                Enjoy our unique and unforgettable  wine-tasting tour experience in scenic villages and
+                                vineyards. Taste one of the best selections of  wines in our over 100 years old cellars,
+                                made with passion,traditionally by our family. Learn about the grape wine making
+                                process and what makes our wines specific. <em>Due to COVID - 19 restrictions groups are
+                                limited to up to 6 people.</em>
                             </p>
                         </div>
                     </div>
@@ -116,12 +109,14 @@
                     <h4>What our clients say:</h4>
                     <hr>
                     <div>
-                        <p class="reviews-text"> <i class="fab fa-tripadvisor d-none d-sm-block"></i> 
-                           "We visited Village Winery for a wine-tasting tour and cannot recommend this place highly enough.Excellent wine and great hospitality."<span><cite>John  Smith</cite></span></p>    
+
+                        <p class="reviews-text"> <i class="fab fa-tripadvisor d-none d-sm-block"></i>
+                            "We visited Village Winery for a wine-tasting tour and cannot recommend this place highly
+                            enough.Excellent wine and great hospitality."<span><cite>John Smith</cite></span></p>
                     </div>
                     <div>
-                        <p class="reviews-text"> <i class="fab fa-facebook d-none d-sm-block"></i> "One of the best wines ever.We will definitely visit
-                            again."<span><cite title="Facebook">Jane Smith</cite></span></p>
+                        <p class="reviews-text"> <i class="fab fa-facebook d-none d-sm-block"></i> "One of the best
+                            wines ever.We will definitely visit again."<span><cite title="Facebook">Jane Smith</cite></span></p>
                     </div>
                     <div>
                         <!-- Maps link copied from Google maps and adjusted -->
@@ -137,28 +132,29 @@
 
     <!-- Website Footer -->
     <footer>
-        <div class="container-fluid">
-            <div class="row">
+        <div class="container">
+            <div class="row no-gutters">
                 <div class="col-sm-12">
-                    <h6>Website designed for educational purposes by KuzGo 2021</h6>
+                        <h6>Website designed for educational purposes with a lot of <span><i
+                                    class="fa fa-heart"></i></span> By © KuzGo 2021</h6>
                 </div>
                 <div class="col-sm-12">
                     <h6>Follow us on social media:</h6>
                     <ul class="list-inlinem media-links">
                         <li class="list-inline-item">
-                            <a href="https://www.facebook.com" target="_blank">
+                            <a href="https://www.facebook.com" aria-label="Follow us on Facebook" rel="noopener" target="_blank">
                                 <i class="media-icon fab fa-facebook" aria-hidden="true"></i>
                                 <span class="sr-only">Facebook</span>
                             </a>
                         </li>
                         <li class="list-inline-item">
-                            <a href="https://www.instagram.com" target="_blank">
+                            <a href="https://www.instagram.com" aria-label="Follow us on Instagram" rel="noopener" target="_blank">
                                 <i class="media-icon fab fa-instagram" aria-hidden="true"></i>
                                 <span class="sr-only">Instagram</span>
                             </a>
                         </li>
                         <li class="list-inline-item">
-                            <a href="https://twitter.com" target="_blank">
+                            <a href="https://twitter.com" aria-label="Follow us on Twitter" rel="noopener" target="_blank">
                                 <i class="media-icon fab fa-twitter" aria-hidden="true"></i>
                                 <span class="sr-only">Twitter</span>
                             </a>
