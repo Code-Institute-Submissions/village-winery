@@ -189,7 +189,7 @@ h6 {
 }
 /* ----------------------------------------- Contact form section */
 .contact-bg {
-    background: url(/assets/images/grapes.webp) no-repeat bottom right fixed;
+    background: url(../images/grapes.webp) no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
