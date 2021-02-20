@@ -19,12 +19,13 @@
 
 <body>
 
-    <!-- Navbar -->
+    <!-- Navbar code snippet used from Bootstrap documentation and refactored to sevre project needs -->
     <div class="container-fluid navbar-container">
         <nav class="navbar fixed-top navbar-expand-sm navbar-light">
             <a href="index.html" class="navbar-brand ml-2">
+                <!-- Navbar logo created using canva.com -->
                 <img class="mr-3 logo" src="assets/images/logo.webp" alt="Village Winery logo">
-                <span class="navbar-text d-none d-xs-inline">Village Winery </span>
+                <span class="navbar-text d-none d-md-inline d-xs-none">Village Winery </span>
             </a>
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
                 data-target="#villageNavbarDropdpwn" aria-controls="villageNavbarDropdpwn" aria-expanded="false"
@@ -33,24 +34,28 @@
             <div class="collapse navbar-collapse" id="villageNavbarDropdpwn">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item ml-auto">
-                        <a class="nav-link active" aria-current="true" href="index.html">Home</a>
+                        <a class="nav-link active" aria-label="Go to home page" aria-current="true" href="index.html">Home</a>
                     </li>
                     <li class="nav-item ml-auto">
-                        <a class="nav-link" href="wines.html">Our Wines</a>
+                        <a class="nav-link" aria-label="Go to order wines online page" href="wines.html">Our Wines</a>
                     </li>
                     <li class="nav-item ml-auto">
-                        <a class="nav-link" href="gallery.html">Gallery</a>
+                        <a class="nav-link"  aria-label="Go to website gallery" href="gallery.html">Gallery</a>
                     </li>
                     <li class="nav-item ml-auto">
-                        <a class="nav-link" href="contact.html">Contact Us</a>
+                        <a class="nav-link" aria-label="Go to contact form" href="contact.html">Contact Us</a>
                     </li>
                 </ul>
             </div>
         </nav>
     </div>
     <!-- End of Navbar -->
+
+    <!-- Background hero image  -->
     <div title="Vineyard photo" class="container-fluid bg-image-container" style="background-image: url(assets/images/background-pic.webp); background-repeat:no-repeat;
- background-size: cover; background-position: bottom left; background-attachment: fixed;"></div>
+        background-size: cover; background-position: bottom left; background-attachment: fixed;">
+    </div>
+    <!-- Welcome landing page-our story section  -->
     <section>
         <div class="container-fluid">
             <div class="row">
@@ -64,7 +69,7 @@
                             <h3><i class="icon fas fa-wine-bottle d-none d-sm-inline"></i> This where all begins</h3>
                             <p class="story-text">
 
-                                "Tradition of grape winemaking in our family began in the early 80's. From our 50 acres
+                                Tradition of grape winemaking in our family began in the early 80's. From our 50 acres
                                 of
                                 vineyard we made
                                 our first bottle of wine ranging from Cabernet Sauvignon, Merlot,Sauvignon Blanc to
@@ -77,7 +82,7 @@
                                 every part of the world. If you are in search of a glass of a fine wine, whether you
                                 prefer
                                 red,white or
-                                rose, make sure to check what we can offer.<br>We are looking forward to welcoming you."
+                                rose, make sure to check what we can offer.<br>We are looking forward to welcoming you.
                             </p>
                         </div>
 
@@ -89,10 +94,13 @@
                             <h3><i class="icon fas fa-wine-glass-alt d-none d-sm-inline"></i> Wine-tasting Tours</h3>
                             <p class="story-text">
 
-                                Enjoy our unique and unforgettable  wine-tasting tour experience in scenic villages and
+                                Enjoy our unique and unforgettable wine-tasting tour experience in scenic villages and
                                 vineyards. Taste one of the best selections of  wines in our over 100 years old cellars,
                                 made with passion,traditionally by our family. Learn about the grape wine making
-                                process and what makes our wines specific. <em>Due to COVID - 19 restrictions groups are
+                                process and what makes our wines specific. 
+                                If you wish to arange wine-tasting experience tour please 
+                                <a class="nav-link" aria-label="Go to contact form" href="contact.html">let us know</a>
+                                <em>Due to COVID - 19 restrictions groups are
                                 limited to up to 6 people.</em>
                             </p>
                         </div>
@@ -109,7 +117,6 @@
                     <h4>What our clients say:</h4>
                     <hr>
                     <div>
-
                         <p class="reviews-text"> <i class="fab fa-tripadvisor d-none d-sm-block"></i>
                             "We visited Village Winery for a wine-tasting tour and cannot recommend this place highly
                             enough.Excellent wine and great hospitality."<span><cite>John Smith</cite></span></p>

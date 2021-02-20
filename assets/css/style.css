@@ -134,13 +134,13 @@ h6 {
     text-align: center;
 
 }
-
+/* ------------------------------------Google maps sizing */
 .gmap-style {
     width:100%;
     height: 200px;
 }
 
-/* -------------------------Our wines section */
+/* -------------------------------------Our wines section */
 .wine-headers {
     font-family: "Cinzel",sans-serif;
     text-align: center;
@@ -172,6 +172,8 @@ h6 {
     bottom: 20px;
     left:20%;
     border-radius: 23px;
+    background-color: #343a40;
+    color: #f9f8f5;
 }
 
 .btn-outline-secondary:hover,
@@ -185,7 +187,7 @@ h6 {
 .wines-selection {
     background-color:#f9f8f5;
 }
-/* ------------------------- Contact form section */
+/* ----------------------------------------- Contact form section */
 .contact-bg {
     background: url(/assets/images/grapes.webp) no-repeat bottom right fixed;
     -webkit-background-size: cover;
@@ -225,7 +227,7 @@ label {
     border-radius: 23px;
     width: 60%;
 }
-/* -------------------------Gallery section */
+/* -----------------------------------------Gallery section */
 
 .gallery-image {
     width: 97%;
@@ -242,7 +244,7 @@ label {
     animation-duration: 1s;
     animation-fill-mode: forwards;
     overflow: hidden;
-    opacity: 0.5;
+    
 }
 @keyframes zoom-image {
     from { transform: scale(1);
@@ -271,7 +273,7 @@ label {
  .gallery-text:active {
      color: var(--nav-link--color);
  }
- /* -------------------------------------Footer */
+ /* --------------------------------------------------Footer */
 footer {
     background-color: #332F36;
     color:#f9f8f5;
@@ -297,138 +299,5 @@ footer {
     width: 36px;
     font-size: 18px;
     text-align: center;
-    padding: 8px;
-
+    padding: 8px; 
 }
-
-/* -------------------------Our wines section */
-.wine-headers {
-    font-family: "Cinzel",sans-serif;
-    text-align: center;
-    margin-top: 25px;
-    margin-bottom: 2rem;
-
-}
-.wine-photos {
-    display: block;
-    margin: auto;
-    width: 200px;
-    height: 400px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-.wine-text {
-    font-family: "Lato",sans-serif;
-    text-align: center;
-    padding-right: 20px;
-    padding-left: 20px;
-    margin-bottom: 70px
-    
-}
-.wine-buttons {
-    display: block;
-    position: absolute;
-    justify-content: center;
-    width:60%;
-    bottom: 20px;
-    left:20%;
-    border-radius: 23px;
-}
-
-.btn-outline-secondary:hover,
-.btn-outline-secondary:focus,
-.btn-outline-secondary:active {
-    color: #f9f8f5;
-    border: #d2a659;
-    border-style: solid;
-    border-radius: 23px;
-}
-.wines-selection {
-    background-color:#f9f8f5;
-}
-/* ------------------------- Contact form section */
-.contact-bg {
-    background: url(/assets/images/grapes.webp) no-repeat bottom right fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-   -o-background-size: cover;
-    background-size: cover;
-}
-.jumbo-container {
-    background-color: transparent;
-    text-align: center;
-}
-.form-control {
-    background-color:rgba(20, 19, 19, 0.7);
-    color: #f9f8f5;
-}
-.lead,
-.display-4,
-label {
-    color:#f9f8f5 ;
-}
-.form-cover {
-    background-color: rgba(0,0,0,0.3);
-    width: 100%;
-    height: 100%;
-}
-.btn-dark {
-    border-radius: 23px;
-    width: 60%;
-}
-
-.btn-dark:hover {
-    color: #f9f8f5;
-    border: #d2a659;
-    border-style: solid;
-    border-radius: 5px;
-    text-decoration: none;
-    border-radius: 23px;
-    width: 60%;
-}
-/* -------------------------Gallery section */
-
-.gallery-image {
-    width: 97%;
-    height: 55vh; 
-    padding: 0px;
-    margin: 20px;
-    box-shadow: -2px 2px 10px 0 rgba(8, 8, 8, 0.7);
-    
-}
-.gallery-image:hover {
-    position: relative;
-    animation: ease-in-out;
-    animation-name: zoom-image;
-    animation-duration: 1s;
-    animation-fill-mode: forwards;
-    overflow: hidden;
-    opacity: 0.5;
-}
-@keyframes zoom-image {
-    from { transform: scale(1);
-
-    }
-    to { transform: scale(1.1);
-
-    }
-}
-
- .gallery-container {
-     background-color: var(--story-section--backround--color);
-     margin-top: 4rem;
-     margin-bottom: 4rem;
-     padding: 20px 50px 20px 50px;
- }
- .gallery-section {
-     padding-right: 20px;
-     padding-left: 20px;
- }
- .gallery-text {
-     color:transparent;
- }
- .gallery-text:hover,
- .gallery-text:focus,
- .gallery-text:active {
-     color: var(--nav-link--color);
- }
