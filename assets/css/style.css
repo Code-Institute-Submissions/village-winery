@@ -192,8 +192,8 @@ h6 {
     background: url(/assets/images/grapes.webp) no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
-   -o-background-size: cover;
-    background-size: cover;
+    -o-background-size: cover;
+     background-size: cover;
 }
 .jumbo-container {
     background-color: transparent;
