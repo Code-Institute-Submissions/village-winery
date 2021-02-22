@@ -1,3 +1,6 @@
+
+<p> <img src="assets/README photos/logo.png" width="150" height="150" alt="Color scheme"></p>
+
 # Village Winery 
 
 A family owned business producing quality wines and organizing wine tasting tours. 
@@ -33,7 +36,7 @@ create a positive user experiences.
 * Home 
     * Home is a part of navigation bar, it is used to bring the user to the landing/home page.
 * Our Wines
-    * Consists photographs of the products with description, price and agility to order the product online. Order online is currently linked to contact form and is to be further developed.
+    * Consists photographs of the products with description, price and ability to order the product online. Order online is currently linked to contact form and is to be further developed.
 * Gallery
     * Gallery contains various images of vineyards, grapes, bottles of wine and cellars. Images will slightly increase in size once hovered over.
 * Contact Us
@@ -51,12 +54,12 @@ create a positive user experiences.
       Links will open the desired social media platform in a separate tab so the users can still remain on the page they are currently on.
       Once hovered over the social media links it will wrap the icon with the same color scheme as other clickable links to follow the consistency throughout the entire website. 
 * Color scheme
-
+<p> <img src="assets/README photos/colors.PNG" width="650" height="200" alt="Color scheme"></p>
 
 * Fonts
 
 ### Features Left to Implement
-* Feature which will still need to be implemented is agility to make an online payment. 
+* Feature which will still need to be implemented is ability to make an online payment. 
   This is planned to be implemented at later stage of the course completion when I gain knowledge of how to achieve that.
 * Linking contact form to corporate email address. This will be implemented in case this website is used for existing business 
   as currently it is only designed and developed for educational purpose.  
@@ -105,12 +108,13 @@ which has contrast ratio 7.38, AA 4.5 ,AAA 7.0 making the website more accessibl
 
 2. Contact form would not display correctly in the landscape mode. As I had contact form wrapped with a `jumbotron`, which had a background image specified to cover 100vh.
 This pushed the contact form to the bottom making some parts of form invisible/covered by the footer. Removing 100vh fixed the issue.
+<p> <img src="assets/README photos/form.PNG" width="650" height="200" alt="Form in landscape"></p>
 3. Order online buttons were not correctly positioned. After adding different paragraphs of text to wines.html section, it moved all buttons underneath the text to
  different levels of the screen. To fix this issue I had to use position: absolute in CSS which displayed buttons as expected on large and medium screens but created an issue with small sizes 
  screens. Additional fix was to add some bottom margin to paragraphs which provided some breathing space between buttons and text.
 4. In the `navbar`, the company title next to the company logo would not render properly with small screen sizes. As this would push navbar links to the right,
    cutting off some of the links. I decided to hide the company title for small devices. At later stage of testing I noticed that this would not work in the landscape mode on some small 
-   size screens (Moto 4G) and refactored the code to hide title with small screen sizes and display as a block using Bootstrap's amazing agility code .d-none .d-md-inline .d-xs-none,
+   size screens (Moto 4G) and refactored the code to hide title with small screen sizes and display as a block using Bootstrap's amazing ability code .d-none .d-md-inline .d-xs-none,
    this resolved the issue.
 5. One of the first Lighthouse reports was showing lower performance, best practices and SEO. Based on that report I refactored the code to add `meta` keywords and description to increase 
    SEO and also `aria-*` attributes to make better user experience for users of screen readers and other assistive technologies.
