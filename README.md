@@ -1,5 +1,5 @@
 
-<p> <img src="assets/README photos/logo.png" width="150" height="150" alt="Color scheme"></p>
+<p> <img src="assets/README photos/logo.png" width="150" height="150" alt="Company logo"></p>
 
 # Village Winery 
 
@@ -54,6 +54,10 @@ create a positive user experiences.
       Links will open the desired social media platform in a separate tab so the users can still remain on the page they are currently on.
       Once hovered over the social media links it will wrap the icon with the same color scheme as other clickable links to follow the consistency throughout the entire website. 
 * Color scheme
+
+    * Color palette for the website has been generated using [Colormind](http://colormind.io).
+    Carefully selected color scheme with the idea in mind to create harmonious and  aesthetically pleasing website where users would want to remain longer.
+
 <p> <img src="assets/README photos/colors.PNG" width="650" height="200" alt="Color scheme"></p>
 
 * Fonts
@@ -87,8 +91,8 @@ create a positive user experiences.
 * [__W3Scool__](https://www.w3schools.com/) used as a general source of information.
 * [__Pexel__](https://www.pexels.com/) used to download the majority of the website's images.
 * [__Stackoverflow__](https://stackoverflow.com/) used as a general source of information.
-* [W3C Markup Validator](https://validator.w3.org/) Used to test HTML code validation.
-* [W3C CSS Validatior - Jigsaw](https://jigsaw.w3.org/css-validator/) Used to test CSS code validation.
+* [__W3C Markup Validator__](https://validator.w3.org/) Used to test HTML code validation.
+* [__W3C CSS Validatior - Jigsaw__](https://jigsaw.w3.org/css-validator/) Used to test CSS code validation.
 
 ### Project Wireframe Link :
 ***
@@ -109,6 +113,7 @@ which has contrast ratio 7.38, AA 4.5 ,AAA 7.0 making the website more accessibl
 2. Contact form would not display correctly in the landscape mode. As I had contact form wrapped with a `jumbotron`, which had a background image specified to cover 100vh.
 This pushed the contact form to the bottom making some parts of form invisible/covered by the footer. Removing 100vh fixed the issue.
 <p> <img src="assets/README photos/form.PNG" width="650" height="200" alt="Form in landscape"></p>
+
 3. Order online buttons were not correctly positioned. After adding different paragraphs of text to wines.html section, it moved all buttons underneath the text to
  different levels of the screen. To fix this issue I had to use position: absolute in CSS which displayed buttons as expected on large and medium screens but created an issue with small sizes 
  screens. Additional fix was to add some bottom margin to paragraphs which provided some breathing space between buttons and text.
@@ -119,7 +124,10 @@ This pushed the contact form to the bottom making some parts of form invisible/c
 5. One of the first Lighthouse reports was showing lower performance, best practices and SEO. Based on that report I refactored the code to add `meta` keywords and description to increase 
    SEO and also `aria-*` attributes to make better user experience for users of screen readers and other assistive technologies.
 6. I conducted numerous tests of both HTML and  CSS code using [The W3C CSS Validation Service - Jigsaw](https://jigsaw.w3.org/css-validator/) and [The W3C Markup Validation Service validator](https://validator.w3.org/)
-during various different stages of my project to ensure that codes are valid. Most of the times my reports were with a few minor errors and warnings which could have been easily fixed.
+   during various different stages of my project to ensure that codes are valid. Most of the times my reports were with a few minor errors and warnings which could have been easily fixed.
+
+Post-deployment testing:
+
 ## Deployment
 
 
