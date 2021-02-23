@@ -60,7 +60,8 @@ create a positive user experiences.
 
 <p> <img src="assets/README photos/colors.PNG" width="650" height="200" alt="Color scheme"></p>
 
-* Fonts
+* Typography
+    * The website fonts used are Google fonts Cinzel for headers and Lato for the text paragraphs and also Lato for contact form.
 
 ### Features Left to Implement
 * Feature which will still need to be implemented is ability to make an online payment. 
@@ -93,6 +94,9 @@ create a positive user experiences.
 * [__Stackoverflow__](https://stackoverflow.com/) used as a general source of information.
 * [__W3C Markup Validator__](https://validator.w3.org/) Used to test HTML code validation.
 * [__W3C CSS Validatior - Jigsaw__](https://jigsaw.w3.org/css-validator/) Used to test CSS code validation.
+* [__Am I Responsive__](http://ami.responsivedesign.is/) used during post deployment testing stage.
+
+
 
 ### Project Wireframe Link :
 ***
@@ -128,7 +132,42 @@ This pushed the contact form to the bottom making some parts of form invisible/c
 
 Post-deployment testing:
 
+
+1. One of the first issues encountered during testing of the deployed website was that images in the gallery and contact form hero image would not display at all.
+ Using Mozilla and Google DevTools I found that the error was in the absolute file path. 
+ After changing file paths to relative instead of absolute all images in question were rendered as expected. 
+
+2. The entire image gallery would display photographs slightly moved to the right side of the screen.This issue was resolved by adding margin shorthand to the .gallery-image class.
+
+3. The website has been tested for responsiveness using [Am I Responsive](http://ami.responsivedesign.is/).
+ <p> <img src="assets/README photos/responsive.PNG" width="350" height="200" alt="Form in landscape"></p>
+
+
 ## Deployment
+
+The project's website code was written using Gitpod IDE and had to be pushed to GitHub enering `git push` command in CLI.
+As the branch used for making changes to the code was not a master branch,I was creating a new pull request to squash and merge the branch to a master branch.
+
+Deployment of the website on GitHub can be completed following the next steps:
+
+1. Create a GitHub account and remain logged in.
+2. Repository stored on GitHub is named __kuzGo/village-winery__
+3. Once the repository is selected in the top right corner are a few options, navigate to an option __Settings__ .
+4. In __Settings__ scroll down to the GitHub Pages section.
+5. Click drop down __"None"__ button and select __master__ branch.
+6. Click __"Save"__.
+
+How to clone a repository:
+
+To clone a repository and work locally on it follow the next steps :
+
+1. Navigate to __kuzGo/village-winery__ repository on GitHub.
+2. On the repository main page locate __"Code"__ drop down button and click on it.
+3. Ensure to select __HTTPS__ and click on clipboard icon to copy the URL.
+4. In the IDE you chose to work, open the new terminal 
+5. Change the current working directory to the location where you want the cloned directory.
+6. Enter command `git clone` and paste afterwards the URL you copied earlier.
+7. Click Enter.
 
 
 ### Credits :
@@ -158,9 +197,14 @@ Post-deployment testing:
 
     * Embedded `iframe` html code copied from Google maps and added to the existing html code. It has been adjusted to fit project's needs.
 
+* Nishant Kumar, my mentor who taught me how to create `root:` and use variables to easily adjust/change colours in CSS. 
+
 #### Content
 * The text used to describe different types of wine used for the project has been copied form  [Dublin Fine Wines](dublinfinewines.ie)
 
 
 ## Acknowledgements
 ***
+* I would like to thank my mentor Nishant Kumar for all the support and pieces of advice during  mentoring sessions and sharing his knowledge with me.
+* Great support and motivation came from the CI Slack community and Code Institute tutors.
+* Thanks to the Code Institute for all inspirations and ideas whilst learning and working on the previous different projects. 
