@@ -115,6 +115,12 @@ h6 {
     background-color: var(--story-section--backround--color);
     padding: 40px 30px;
 }
+.story-link {
+    color: #332F36;
+}
+a:hover {
+    color: #332F36;
+}
 /* -------------------------------------  Reviews section */
 .reviews-section {
     font-family: "Roboto",sans-serif;
@@ -305,5 +311,5 @@ footer {
     width: 36px;
     font-size: 30px;
     padding: 8px; 
-    margin: 0 40px;
+    margin: 0 20px;
 }

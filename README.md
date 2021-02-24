@@ -3,6 +3,9 @@
 
 # Village Winery 
 
+* Link to live website : [Village Winery](https://kuzgo.github.io/village-winery/index.html)
+***
+
 A family owned business producing quality wines and organizing wine tasting tours. 
 Due to remote location it occasionally might be difficult to discover this little hidden gem.
 I decided to create a web site which will not only provide an online presence,
@@ -21,6 +24,8 @@ and lastly contacting the owner for any queries using the form provided.
 * User 3 : As a wine collectionner I want to be able to order a bottle of wine from different parts of the world.
 * User 4 : As a user I want to navigate site easily to find products and services.
 * User 5 : As a user I want to be able to contact the owner and book a tour.
+* User 6 : As a business owner I want to easily contact potential wine supplier.
+
 
 
 This website is aimed towards those who are wine collectionners, connoisseurs, bars or restaurants owners looking for a quality wine supplier 
@@ -58,7 +63,7 @@ create a positive user experiences.
     * Color palette for the website has been generated using [Colormind](http://colormind.io).
     Carefully selected color scheme with the idea in mind to create harmonious and  aesthetically pleasing website where users would want to remain longer.
 
-<p> <img src="assets/README photos/colors.PNG" width="650" height="200" alt="Color scheme"></p>
+<p> <img src="assets/README photos/colors.PNG" style="min-width:100%" height="200" alt="Color scheme"></p>
 
 * Typography
     * The website fonts used are Google fonts Cinzel for headers and Lato for the text paragraphs and also Lato for contact form.
@@ -68,6 +73,8 @@ create a positive user experiences.
   This is planned to be implemented at later stage of the course completion when I gain knowledge of how to achieve that.
 * Linking contact form to corporate email address. This will be implemented in case this website is used for existing business 
   as currently it is only designed and developed for educational purpose.  
+* Option to read the website connect in various different languages such as Spanish,Italian,German which will increase potential clients and 
+  make the webste more accessible to non-english speaking regions.
 
 ## Technologies Used 
 
@@ -116,7 +123,7 @@ which has contrast ratio 7.38, AA 4.5 ,AAA 7.0 making the website more accessibl
 
 2. Contact form would not display correctly in the landscape mode. As I had contact form wrapped with a `jumbotron`, which had a background image specified to cover 100vh.
 This pushed the contact form to the bottom making some parts of form invisible/covered by the footer. Removing 100vh fixed the issue.
-<p> <img src="assets/README photos/form.PNG" width="650" height="200" alt="Form in landscape"></p>
+<p> <img src="assets/README photos/form.PNG" style="min-width:100%" height="400" alt="Form in landscape"></p>
 
 3. Order online buttons were not correctly positioned. After adding different paragraphs of text to wines.html section, it moved all buttons underneath the text to
  different levels of the screen. To fix this issue I had to use position: absolute in CSS which displayed buttons as expected on large and medium screens but created an issue with small sizes 
@@ -140,7 +147,10 @@ Post-deployment testing:
 2. The entire image gallery would display photographs slightly moved to the right side of the screen.This issue was resolved by adding margin shorthand to the .gallery-image class.
 
 3. The website has been tested for responsiveness using [Am I Responsive](http://ami.responsivedesign.is/).
- <p> <img src="assets/README photos/responsive.PNG" width="350" height="200" alt="Form in landscape"></p>
+ <p> <img src="assets/README photos/responsive.PNG" style="min-width:100%" height="400" alt="Form in landscape"></p>
+
+ 4. One of the post-deployment issues brought to my attention was that once hovered over the navigation bar and buttons it would push the other content due to border appearing around links and buttons. 
+ To fix this I researched Google and came across a solution on [Stackoverflow](https://stackoverflow.com/questions/18887058/css-hover-creating-border-but-pushing-content).
 
 
 ## Deployment
