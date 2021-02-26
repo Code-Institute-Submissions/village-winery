@@ -6,19 +6,20 @@
     --navbar-toggler-icon--color:#333030;
     --reviews-section--background-color:#d2a659;
     --icon--color:#332F36;
-
+    --hero-header-color: #fff;
 }
 
 body {
     font-family: 'Cinzel', sans-serif;
     font-family: 'Lato', sans-serif;
     font-family: 'Roboto', sans-serif;
+    font-family: 'Ballet',sans-serif;
 }
 
 /* -------------------------------------  Navbar */
 .navbar {
-    background-color:#b59474 ;
-}
+    background-color: var(--navbar-toggler--backround--color);
+} 
 .nav-link {
     color: var(--nav-link--color);
     font-family: "Lato",sans-serif;
@@ -46,6 +47,9 @@ body {
     border-radius: 5px;
     background-color: rgba(0,0,0,0.3);
 }
+.navbar-light .navbar-nav .nav-link.active {
+    background-color:rgba(0,0,0,0.3);
+}
 .container-fluid { 
     overflow: hidden;
     margin: 0;
@@ -56,8 +60,16 @@ body {
     width: 110px;
     height: 110px;
     border-radius: 50%;
-
 }
+/* This code will display smaller logo on mobile devices */
+@media screen and (max-width:653px) {
+    .logo {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+}
+
 .navbar-text {
     font-family: "Cinzel",sans-serif;
     letter-spacing: 2px;
@@ -68,12 +80,46 @@ body {
     border-style: none;
     background-color: var(--navbar-toggler--backround--color);
 }
+a.nav-link.current-page {
+    text-decoration: underline 5px solid #d2a659;
+}
 
 /* -------------------------------------  Hero Image*/
-.bg-image-container {
+#hero-image-bg{
+    background: url(../images/background-pic.webp);
+    background-repeat:no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position: bottom left; 
+    background-attachment: fixed;
+}
+.hero-divider{
+    width: 200px;
+    height: 9px;
+    color: var(--reviews-section--background-color);
+    background-color: var(--reviews-section--background-color);
+}
+.hero-container {
+    background-color:rgba(11, 11, 11, 0.57);
     height: 90vh;
-    display: flex;
+    display: block;
     position: relative;
+    text-align: center;
+    padding: 280px 20px;
+}
+.hero-text {
+    color:  var(--hero-header-color);
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: 'Cinzel',sans-serif;
+}
+.hero-header {
+    font-family: 'Ballet',sans-serif;
+    font-weight: 500;
+    font-size: 65px;
+    color: var(--hero-header-color);
 }
 
 /* -------------------------------------  Headers*/
@@ -84,10 +130,11 @@ h2,h3,h4 {
     text-align: center;
     margin-top: 10px;
     color: var(--nav-link--color);
+    padding: 45px;
 }
 h6 {
  font-family: "Roboto",sans-serif;
- margin-top: 15px;
+ margin-top: 35px;
 }
 /* -------------------------------------  Our story section */
 .story-text {
@@ -146,7 +193,7 @@ a:hover {
 /* ------------------------------------Google maps sizing */
 .gmap-style {
     width:100%;
-    height: 200px;
+    height: 400px;
 }
 
 /* -------------------------------------Our wines section */
@@ -159,19 +206,19 @@ a:hover {
 }
 .wine-photos {
     display: block;
-    margin: auto;
-    width: 200px;
-    height: 400px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    width:90%;
+    height: 100%;
+    padding: 20px;
+    margin:auto;
 }
 .wine-text {
     font-family: "Lato",sans-serif;
     text-align: center;
     padding-right: 20px;
     padding-left: 20px;
-    margin-bottom: 70px
-    
+    margin-bottom: 70px;
+    letter-spacing: 3px;
+    line-height: 2rem;
 }
 .wine-buttons {
     display: block;
@@ -182,24 +229,25 @@ a:hover {
     left:20%;
     border-radius: 23px;
     background-color: #343a40;
-    color: #f9f8f5;
+    color: var(--story-section--backround--color);
     border: solid transparent;
 }
 
 .btn-outline-secondary:hover,
 .btn-outline-secondary:focus,
 .btn-outline-secondary:active {
-    color: #f9f8f5;
+    color: var(--story-section--backround--color);
     border: #d2a659;
     border-style: solid;
     border-radius: 23px;
 }
 .wines-selection {
-    background-color:#f9f8f5;
+    background-color: var(--story-section--backround--color);
+    padding: 20px 50px;
 }
 /* ----------------------------------------- Contact form section */
 .contact-bg {
-    background: url(../images/grapes.webp) no-repeat bottom right fixed;
+    background: url(../images/grapes.webp) no-repeat bottom right scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -208,18 +256,34 @@ a:hover {
 .contact-row {
     padding: 80px 0;
 }
+
 .jumbo-container {
     background-color: transparent;
     text-align: center;
 }
 .form-control {
     background-color:rgba(20, 19, 19, 0.7);
-    color: #f9f8f5;
+    color: var(--story-section--backround--color);
 }
-.lead,
-.display-4,
-label {
-    color:#f9f8f5 ;
+.contact-label {
+    color: var(--story-section--backround--color);
+}
+.form-control::placeholder {
+    color:var(--story-section--backround--color);
+}
+.form-control::placeholder:focus {
+    color: red;
+}
+.contact-button {
+    background-color: var(--reviews-section--background-color);
+    margin-top: 33px;
+    color: var(--nav-link--color);
+}
+.contact-divider {
+    background-color: var(--icon--color);
+    color: var(--icon--color);
+    width: 100px;
+    height: 9px;
 }
 .form-cover {
     background-color: rgba(0,0,0,0.3);
@@ -312,4 +376,33 @@ footer {
     font-size: 30px;
     padding: 8px; 
     margin: 0 20px;
+}
+/* This code removes margin between social media icons and
+makes summer house image smaller- issue with Galaxy Fold or simillar*/
+@media screen and (max-width:280px) {
+.media-icon {
+    width: 36px;
+    font-size: 30px;
+    padding: 8px; 
+    margin: 0;
+    }
+ .summer-house {
+    display: block;
+    margin:42px auto 32px auto;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    padding: 16px;
+    border-style: dashed;
+    border-width: 1px;
+    border-color: var(--summer-house-border-color);
+}
+.hero-container {
+        background-color:rgba(31, 28, 25, 0.253);
+        height: 90vh;
+        display: block;
+        position: relative;
+        text-align: center;
+        padding: 180px 20px;
+}
 }

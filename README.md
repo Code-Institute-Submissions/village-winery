@@ -1,7 +1,9 @@
-
-<p> <img src="assets/README photos/logo.png" width="150" height="150" alt="Company logo"></p>
-
 # Village Winery 
+
+<p> <img src="assets/docs/responsive.PNG" style="min-width:100%" height="500" alt="Form in landscape"></p>
+
+***
+<p> <img src="assets/docs/logo.png" width="70" height="70" alt="Company logo"></p> 
 
 * Link to live website : [Village Winery](https://kuzgo.github.io/village-winery/index.html)
 ***
@@ -63,7 +65,7 @@ create a positive user experiences.
     * Color palette for the website has been generated using [Colormind](http://colormind.io).
     Carefully selected color scheme with the idea in mind to create harmonious and  aesthetically pleasing website where users would want to remain longer.
 
-<p> <img src="assets/README photos/colors.PNG" style="min-width:100%" height="200" alt="Color scheme"></p>
+<p> <img src="assets/docs/colors.PNG" style="min-width:100%" height="200" alt="Color scheme"></p>
 
 * Typography
     * The website fonts used are Google fonts Cinzel for headers and Lato for the text paragraphs and also Lato for contact form.
@@ -123,7 +125,7 @@ which has contrast ratio 7.38, AA 4.5 ,AAA 7.0 making the website more accessibl
 
 2. Contact form would not display correctly in the landscape mode. As I had contact form wrapped with a `jumbotron`, which had a background image specified to cover 100vh.
 This pushed the contact form to the bottom making some parts of form invisible/covered by the footer. Removing 100vh fixed the issue.
-<p> <img src="assets/README photos/form.PNG" style="min-width:100%" height="400" alt="Form in landscape"></p>
+<p> <img src="assets/docs/form.PNG" style="min-width:100%" height="400" alt="Form in landscape"></p>
 
 3. Order online buttons were not correctly positioned. After adding different paragraphs of text to wines.html section, it moved all buttons underneath the text to
  different levels of the screen. To fix this issue I had to use position: absolute in CSS which displayed buttons as expected on large and medium screens but created an issue with small sizes 
@@ -136,7 +138,9 @@ This pushed the contact form to the bottom making some parts of form invisible/c
    SEO and also `aria-*` attributes to make better user experience for users of screen readers and other assistive technologies.
 6. I conducted numerous tests of both HTML and  CSS code using [The W3C CSS Validation Service - Jigsaw](https://jigsaw.w3.org/css-validator/) and [The W3C Markup Validation Service validator](https://validator.w3.org/)
    during various different stages of my project to ensure that codes are valid. Most of the times my reports were with a few minor errors and warnings which could have been easily fixed.
-
+    <p> <img src="assets/docs/css-validator.PNG" style="min-width:100%" height="200" alt="Form in landscape"></p>
+    <p> <img src="assets/docs/css-warnings.PNG" style="min-width:100%" height="500" alt="Form in landscape"></p>
+    <p> <img src="assets/docs/html-error.PNG" style="min-width:100%" height="200" alt="Form in landscape"></p>
 Post-deployment testing:
 
 
@@ -147,8 +151,7 @@ Post-deployment testing:
 2. The entire image gallery would display photographs slightly moved to the right side of the screen.This issue was resolved by adding margin shorthand to the .gallery-image class.
 
 3. The website has been tested for responsiveness using [Am I Responsive](http://ami.responsivedesign.is/).
- <p> <img src="assets/README photos/responsive.PNG" style="min-width:100%" height="400" alt="Form in landscape"></p>
-
+ 
  4. One of the post-deployment issues brought to my attention was that once hovered over the navigation bar and buttons it would push the other content due to border appearing around links and buttons. 
  To fix this I researched Google and came across a solution on [Stackoverflow](https://stackoverflow.com/questions/18887058/css-hover-creating-border-but-pushing-content).
 
