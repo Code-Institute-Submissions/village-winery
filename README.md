@@ -1,6 +1,6 @@
 # Village Winery 
 
-<p> <img src="assets/docs/responsive.PNG" style="min-width:100%" height="500" alt="Form in landscape"></p>
+<p> <img src="assets/docs/ami-responsive.PNG" style="min-width:100%" height="500" alt="Form in landscape"></p>
 
 ***
 <p> <img src="assets/docs/logo.png" width="70" height="70" alt="Company logo"></p> 
@@ -22,11 +22,11 @@ and lastly contacting the owner for any queries using the form provided.
 
 
 * User 1 : As a wine lover I want to find a place where I can taste quality wine.
-* User 2 : I want to find a remote, romantic location and enjoy a glass of wine.
+* User 2 : As a user I want to be able to contact the owner and book a tour.
 * User 3 : As a wine collectionner I want to be able to order a bottle of wine from different parts of the world.
-* User 4 : As a user I want to navigate site easily to find products and services.
-* User 5 : As a user I want to be able to contact the owner and book a tour.
-* User 6 : As a business owner I want to easily contact potential wine supplier.
+* User 4 : As a user I want to navigate the site easily to find products and services.
+* User 5 : As a business owner I want to easily contact potential wine suppliers.
+
 
 
 
@@ -104,6 +104,7 @@ create a positive user experiences.
 * [__W3C Markup Validator__](https://validator.w3.org/) Used to test HTML code validation.
 * [__W3C CSS Validatior - Jigsaw__](https://jigsaw.w3.org/css-validator/) Used to test CSS code validation.
 * [__Am I Responsive__](http://ami.responsivedesign.is/) used during post deployment testing stage.
+* [Pixlr](https://pixlr.com) used to remove background and editing photographs.
 
 
 
@@ -138,9 +139,11 @@ This pushed the contact form to the bottom making some parts of form invisible/c
    SEO and also `aria-*` attributes to make better user experience for users of screen readers and other assistive technologies.
 6. I conducted numerous tests of both HTML and  CSS code using [The W3C CSS Validation Service - Jigsaw](https://jigsaw.w3.org/css-validator/) and [The W3C Markup Validation Service validator](https://validator.w3.org/)
    during various different stages of my project to ensure that codes are valid. Most of the times my reports were with a few minor errors and warnings which could have been easily fixed.
-    <p> <img src="assets/docs/css-validator.PNG" style="min-width:100%" height="200" alt="Form in landscape"></p>
-    <p> <img src="assets/docs/css-warnings.PNG" style="min-width:100%" height="500" alt="Form in landscape"></p>
     <p> <img src="assets/docs/html-error.PNG" style="min-width:100%" height="200" alt="Form in landscape"></p>
+    <p> <img src="assets/docs/css-warnings.PNG" style="min-width:100%" height="500" alt="Form in landscape"></p>
+    <p> <img src="assets/docs/css-validator.PNG" style="min-width:100%" height="200" alt="Form in landscape"></p>
+    
+    
 Post-deployment testing:
 
 
@@ -152,9 +155,9 @@ Post-deployment testing:
 
 3. The website has been tested for responsiveness using [Am I Responsive](http://ami.responsivedesign.is/).
  
- 4. One of the post-deployment issues brought to my attention was that once hovered over the navigation bar and buttons it would push the other content due to border appearing around links and buttons. 
+4. One of the post-deployment issues brought to my attention was that once hovered over the navigation bar and buttons it would push the other content due to border appearing around links and buttons. 
  To fix this I researched Google and came across a solution on [Stackoverflow](https://stackoverflow.com/questions/18887058/css-hover-creating-border-but-pushing-content).
-
+5. Lighthouse reports ran for both mobile and desktops.
 
 ## Deployment
 
@@ -188,7 +191,7 @@ To clone a repository and work locally on it follow the next steps :
 
 #### Photographers:
 
-* Pexel images downloaded from the following photographers:
+* [Pexel](https://www.pexels.com/) images downloaded from the following photographers:
 
 > * Elle Hughes
 > * David
@@ -201,6 +204,15 @@ To clone a repository and work locally on it follow the next steps :
 > * Markus Spiske
 > * Ksenia Chernaya
 > * David Taljat
+> * Rodnae Productions
+
+* Photographs downloaded from [Unsplash](https://unsplash.com) from the following photographers :
+
+> * Maja Petric
+> * Rodrigo Abreu
+> * Cayton Heath
+ 
+
 
 #### Code snippets used from external sources:
 * Bootstrap 

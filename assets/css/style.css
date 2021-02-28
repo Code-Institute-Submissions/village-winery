@@ -69,7 +69,6 @@ body {
         border-radius: 50%;
     }
 }
-
 .navbar-text {
     font-family: "Cinzel",sans-serif;
     letter-spacing: 2px;
@@ -93,7 +92,8 @@ a.nav-link.current-page {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-position: bottom left; 
-    background-attachment: fixed;
+    background-attachment: scroll;
+    
 }
 .hero-divider{
     width: 200px;
@@ -108,6 +108,7 @@ a.nav-link.current-page {
     position: relative;
     text-align: center;
     padding: 280px 20px;
+    background-attachment: scroll;
 }
 .hero-text {
     color:  var(--hero-header-color);
@@ -132,7 +133,7 @@ h2,h3,h4 {
     color: var(--nav-link--color);
     padding: 45px;
 }
-h6 {
+h5 {
  font-family: "Roboto",sans-serif;
  margin-top: 35px;
 }
@@ -247,7 +248,7 @@ a:hover {
 }
 /* ----------------------------------------- Contact form section */
 .contact-bg {
-    background: url(../images/grapes.webp) no-repeat bottom right scroll;
+    background: url(../images/grapes.webp) no-repeat bottom right scroll; /* ----Photographer Elle Hughes*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -271,9 +272,7 @@ a:hover {
 .form-control::placeholder {
     color:var(--story-section--backround--color);
 }
-.form-control::placeholder:focus {
-    color: red;
-}
+
 .contact-button {
     background-color: var(--reviews-section--background-color);
     margin-top: 33px;
@@ -351,6 +350,7 @@ a:hover {
  .gallery-text:active {
      color: var(--nav-link--color);
  }
+ 
  /* --------------------------------------------------Footer */
 footer {
     background-color: #332F36;
@@ -376,6 +376,10 @@ footer {
     font-size: 30px;
     padding: 8px; 
     margin: 0 20px;
+}
+.heart-red:hover{
+    color: red;
+    text-shadow: 0 0 15px red;
 }
 /* This code removes margin between social media icons and
 makes summer house image smaller- issue with Galaxy Fold or simillar*/
