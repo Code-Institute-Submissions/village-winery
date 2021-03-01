@@ -12,7 +12,7 @@ A family owned business producing quality wines and organizing wine tasting tour
 Due to remote location it occasionally might be difficult to discover this little hidden gem.
 I decided to create a web site which will not only provide an online presence,
 but will also help potential clients find the location easier. 
-Ability to browse products and services offered which is aimed towards increase of the amount of visits
+Ability to browse products and services offered which is aimed towards increasing the amount of visits
 ,bottles of vines sold and the owner's revenue. 
 Previous customer’s experiences will be available 
 and lastly contacting the owner for any queries using the form provided. 
@@ -30,24 +30,24 @@ and lastly contacting the owner for any queries using the form provided.
 
 
 
-This website is aimed towards those who are wine collectionners, connoisseurs, bars or restaurants owners looking for a quality wine supplier 
-or just a people who want to enjoy a good glass of wine in a calming environment.
+This website is aimed towards those who are wine collectionners, connoisseurs, bars or restaurant owners looking for a quality wine supplier 
+or just people who want to enjoy a good glass of wine in a calming environment.
 
 Website's design is responsive and mobile devices first friendly. Design is minimalistic and elegant with all features included to 
-create a positive user experiences.
+create a positive user experience.
 
 ## Existing features
 
 * Navbar
-    * Navbar is visible on every page of the website and consists of the company logo, company title and four `navlink` options for users to navigate to desired section of the webpage.
+    * Navbar is visible on every page of the website and consists of the company logo, company title and four `navlink` options for users to navigate to the desired section of the webpage.
 * Home 
-    * Home is a part of navigation bar, it is used to bring the user to the landing/home page.
+    * Home is a part of the navigation bar, it is used to bring the user to the landing/home page.
 * Our Wines
     * Consists photographs of the products with description, price and ability to order the product online. Order online is currently linked to contact form and is to be further developed.
 * Gallery
     * Gallery contains various images of vineyards, grapes, bottles of wine and cellars. Images will slightly increase in size once hovered over.
 * Contact Us
-    * Contact Us page is designed with hero image in the background and contact form in the middle of the screen. Form background is see-trough with a small percentage of opacity.
+    * The Contact Us page is designed with the hero image in the background and contact form in the middle of the screen. Form background is see-through with a small percentage of opacity.
       Form contains three fields. The first will require the user's name, the second email address and the third would be where users can contact the owner with any queries.
       Form cannot be submitted if Name and Email address are not entered.
 * Hero image
@@ -55,7 +55,7 @@ create a positive user experiences.
 * Map of the location
     * As the website has been designed and developed using HTML and CSS mainly,I was looking for a way to add Google maps to my project using these programming languages.
       After researching Google,I came across a simple solution by copying embedded HTML code snippet as follows: Open Google maps in browser -> place a pin to location -> click share button -> select option "Embed a map" -> copy HTML link. 
-      I wanted width to be always 100% of the screen size, however it would not pass [W3C](https://validator.w3.org/) as an inline CSS so I decided to specify this in style.css file.
+      I wanted the width to be always 100% of the screen size, however it would not pass [W3C](https://validator.w3.org/) as an inline CSS so I decided to specify this in style.css file.
 * Footer with links to social media
     * Footer is a feature visible on every page. It is designed with a minimalistic approach containing social media links to connect with the business owner. 
       Links will open the desired social media platform in a separate tab so the users can still remain on the page they are currently on.
@@ -73,12 +73,12 @@ create a positive user experiences.
 
 ### Features Left to Implement
 * Feature which will still need to be implemented is ability to make an online payment. 
-  This is planned to be implemented at later stage of the course completion when I gain knowledge of how to achieve that.
+  This is planned to be implemented at a later stage of the course completion when I gain knowledge of how to achieve that.
 * Linking contact form to corporate email address. This will be implemented in case this website is used for existing business 
-  as currently it is only designed and developed for educational purpose.  
+  as currently it is only designed and developed for educational purposes.  
 * Option to read the website content in various different languages such as Spanish, Italian, German which will increase potential clients and 
-  make the webste more accessible to non-English speaking regions.
-* Ability to submit client's review after visiting winery or tasting the wine.
+  make the website more accessible to non-English speaking regions.
+* Ability to submit a client's review after visiting a winery or tasting the wine.
 
 ## Technologies Used 
 
@@ -141,7 +141,7 @@ To clone a repository and work locally on it follow the next steps :
 
 1. Navigate to __kuzGo/village-winery__ repository on GitHub.
 2. On the repository main page locate __"Code"__ drop down button and click on it.
-3. Ensure to select __HTTPS__ and click on clipboard icon to copy the URL.
+3. Ensure to select __HTTPS__ and click on the clipboard icon to copy the URL.
 4. In the IDE you chose to work, open the new terminal 
 5. Change the current working directory to the location where you want the cloned directory.
 6. Enter command `git clone` and paste afterwards the URL you copied earlier.
@@ -182,16 +182,16 @@ To clone a repository and work locally on it follow the next steps :
      my project's requirements.
 * Google maps
 
-    * Embedded `iframe` html code copied from Google maps and added to the existing html code. It has been adjusted to fit project's needs.
+    * Embedded `iframe` html code copied from Google maps and added to the existing html code. It has been adjusted to fit the project's needs.
 
-* Nishant Kumar, my mentor suggested me to create `root:` and use variables to easily adjust/change colours in CSS. 
+* Nishant Kumar, my mentor,suggested that I create `root:` and use variables to easily adjust/change colours in CSS. 
 
 #### Content
-* The text used to describe different types of wine used for the project has been copied form  [Dublin Fine Wines](dublinfinewines.ie)
+* The text used to describe different types of wine used for the project has been copied from  [Dublin Fine Wines](dublinfinewines.ie)
 
 
 ## Acknowledgements
 ***
 * I would like to thank my mentor Nishant Kumar for all the support and pieces of advice during  mentoring sessions and sharing his knowledge with me.
 * Great support and motivation came from the CI Slack community and Code Institute tutors.
-* Thanks to the Code Institute for all inspirations and ideas whilst learning and working on the previous different projects Love Running, Whiskey Drop. 
+* Thanks to the Code Institute for all inspirations and ideas whilst learning and working on the previous different projects Love Running, Whiskey Drop,Resume. 
