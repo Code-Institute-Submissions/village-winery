@@ -117,9 +117,9 @@ To see Project Wireframes please click the link: <a href="https://github.com/kuz
 
 ## Testing :
 
-To see testing of the website please click the link to see in a separate file:
+ Click the link to see testing of the website please in a separate file:
 
-<a href="https://github.com/kuzGo/village-winery/blob/master/assets/TESTING.md">TESTING.md</a>
+<a href="https://github.com/kuzGo/village-winery/blob/master/TESTING.md">TESTING.md</a>
 
 ## Deployment
 
