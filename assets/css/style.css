@@ -1,12 +1,20 @@
 :root {
     --nav-link--color: #040101;
+    --nav-link--text-color:#f9f8f5;
+    --nav-link--border-color:#d2a659;
+    --navbar-active-color:rgba(0,0,0,0.3);
+    --hero-container-color:rgba(11, 11, 11, 0.57);
     --summer-house-border-color:#333030;
     --navbar-toggler--backround--color:#b59474;
     --story-section--backround--color:#f9f8f5;
     --navbar-toggler-icon--color:#333030;
     --reviews-section--background-color:#d2a659;
     --icon--color:#332F36;
+    --media-links--color:#b59474;
+    --wine-buttons--color:#343a40;
+    --form-contorl--color:rgba(20, 19, 19, 0.7);
     --hero-header-color: #fff;
+    --red-heart--color: red;
 }
 
 body {
@@ -35,20 +43,20 @@ body {
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link:focus {
-    color: #f9f8f5;
-    border: #d2a659;
+    color: var(--nav-link--text-color);
+    border: var(--nav-link--border-color);
     border-style: solid;
     border-radius: 5px;
 }
 .navbar-light .navbar-nav .nav-link:active {
-    color: #f9f8f5;
-    border: #d2a659;
+    color: var(--nav-link--text-color);
+    border: var(--nav-link--border-color);
     border-style: solid;
     border-radius: 5px;
-    background-color: rgba(0,0,0,0.3);
+    background-color: var(--navbar-active-color);
 }
 .navbar-light .navbar-nav .nav-link.active {
-    background-color:rgba(0,0,0,0.3);
+    background-color: var(--navbar-active-color);
 }
 .container-fluid { 
     overflow: hidden;
@@ -80,7 +88,7 @@ body {
     background-color: var(--navbar-toggler--backround--color);
 }
 a.nav-link.current-page {
-    text-decoration: underline 5px solid #d2a659;
+    text-decoration: underline 5px solid var(--nav-link--border-color);
 }
 
 /* -------------------------------------  Hero Image*/
@@ -102,7 +110,7 @@ a.nav-link.current-page {
     background-color: var(--reviews-section--background-color);
 }
 .hero-container {
-    background-color:rgba(11, 11, 11, 0.57);
+    background-color: var(--hero-container-color);
     height: 90vh;
     display: block;
     position: relative;
@@ -143,7 +151,7 @@ h5 {
     font-size: 18px;
     font-family: "Lato",sans-serif;
     text-align: center;
-    color: #333030;
+    color: var(--summer-house-border-color);
     white-space: normal;
     margin-left: 25px;
     margin-right: 25px;
@@ -164,10 +172,10 @@ h5 {
     padding: 40px 30px;
 }
 .story-link {
-    color: #332F36;
+    color: var(--icon--color);
 }
 a:hover {
-    color: #332F36;
+    color: var(--icon--color);
 }
 /* -------------------------------------  Reviews section */
 .reviews-section {
@@ -229,7 +237,7 @@ a:hover {
     bottom: 20px;
     left:20%;
     border-radius: 23px;
-    background-color: #343a40;
+    background-color: var(--wine-buttons--color);
     color: var(--story-section--backround--color);
     border: solid transparent;
 }
@@ -238,7 +246,7 @@ a:hover {
 .btn-outline-secondary:focus,
 .btn-outline-secondary:active {
     color: var(--story-section--backround--color);
-    border: #d2a659;
+    border: var(--nav-link--border-color);
     border-style: solid;
     border-radius: 23px;
 }
@@ -263,7 +271,7 @@ a:hover {
     text-align: center;
 }
 .form-control {
-    background-color:rgba(20, 19, 19, 0.7);
+    background-color: var(--form-contorl--color);
     color: var(--story-section--backround--color);
 }
 .contact-label {
@@ -285,7 +293,7 @@ a:hover {
     height: 9px;
 }
 .form-cover {
-    background-color: rgba(0,0,0,0.3);
+    background-color: var(--navbar-active-color);
     width: 100%;
     height: 100%;
 }
@@ -296,8 +304,8 @@ a:hover {
 }
 
 .btn-dark:hover {
-    color: #f9f8f5;
-    border: #d2a659;
+    color: var(--nav-link--text-color);
+    border: var(--nav-link--border-color);
     border-style: solid;
     border-radius: 5px;
     text-decoration: none;
@@ -321,8 +329,8 @@ a:hover {
     animation-duration: 1s;
     animation-fill-mode: forwards;
     overflow: hidden;
-    
 }
+/* Inspiration for this code I received from the Code institute project Love Running */
 @keyframes zoom-image {
     from { transform: scale(1);
 
@@ -353,17 +361,17 @@ a:hover {
  
  /* --------------------------------------------------Footer */
 footer {
-    background-color: #332F36;
-    color:#f9f8f5;
+    background-color: var(--icon--color);
+    color: var(--nav-link--text-color);
     text-align: center; 
 }
 .media-links .list-inline-item a {
-    color: #b59474;
+    color: var(--media-links--color);
     text-decoration: none;
 }
 .media-links .list-inline-item a:hover {
-    color: #f9f8f5;
-    border: #d2a659;
+    color: var(--nav-link--text-color);
+    border: var(--nav-link--border-color);
     width: 15px;
     height: 15px;
     text-decoration: none;
@@ -378,11 +386,11 @@ footer {
     margin: 0 20px;
 }
 .heart-red:hover{
-    color: red;
-    text-shadow: 0 0 15px red;
+    color: var(--red-heart--color);
+    text-shadow: 0 0 15px var(--red-heart--color);
 }
-/* This code removes margin between social media icons and
-makes summer house image smaller- issue with Galaxy Fold or simillar*/
+/* These codes remove margin between social media icons and
+makes summer house image smaller,decrease hero container padding - issue with Galaxy Fold or simillar*/
 @media screen and (max-width:280px) {
 .media-icon {
     width: 36px;

@@ -68,15 +68,17 @@ create a positive user experiences.
 <p> <img src="assets/docs/colors.PNG" style="min-width:100%" height="200" alt="Color scheme"></p>
 
 * Typography
-    * The website fonts used are Google fonts Cinzel for headers and Lato for the text paragraphs and also Lato for contact form.
+    * The website fonts used are Google fonts Cinzel for headers and Lato for the text paragraphs and also Lato for contact form. Google font's Ballet font was used only for creation of
+    a Village Winery header on a landing page.
 
 ### Features Left to Implement
 * Feature which will still need to be implemented is ability to make an online payment. 
   This is planned to be implemented at later stage of the course completion when I gain knowledge of how to achieve that.
 * Linking contact form to corporate email address. This will be implemented in case this website is used for existing business 
   as currently it is only designed and developed for educational purpose.  
-* Option to read the website connect in various different languages such as Spanish,Italian,German which will increase potential clients and 
-  make the webste more accessible to non-english speaking regions.
+* Option to read the website content in various different languages such as Spanish, Italian, German which will increase potential clients and 
+  make the webste more accessible to non-English speaking regions.
+* Ability to submit client's review after visiting winery or tasting the wine.
 
 ## Technologies Used 
 
@@ -104,7 +106,7 @@ create a positive user experiences.
 * [__W3C Markup Validator__](https://validator.w3.org/) Used to test HTML code validation.
 * [__W3C CSS Validatior - Jigsaw__](https://jigsaw.w3.org/css-validator/) Used to test CSS code validation.
 * [__Am I Responsive__](http://ami.responsivedesign.is/) used during post deployment testing stage.
-* [Pixlr](https://pixlr.com) used to remove background and editing photographs.
+* [__Pixlr__](https://pixlr.com) used to remove background and editing photographs.
 
 
 
@@ -113,51 +115,11 @@ create a positive user experiences.
 To see Project Wireframes please click the link: <a href="https://github.com/kuzGo/village-winery/tree/master/assets/wireframe">Wireframes</a> 
 
 
-## Testing &  debugging:
+## Testing :
 
+To see testing of the website please click the link to see in a separate file:
 
-Pre-deployment testing:
-
-At the early stage of my project for testing the website I used Mozilla and Google Chrome DevTools to test responsiveness, accessibility and any potential bugs on different
-device models and screen sizes.
-The issues I encountered during different stages of my project are:
-1. Navbar text color contrast issue. While I personally liked more color used for text, to increase accessibility I decided to change color to #040101,
-which has contrast ratio 7.38, AA 4.5 ,AAA 7.0 making the website more accessible for diverse needs of users.
-
-2. Contact form would not display correctly in the landscape mode. As I had contact form wrapped with a `jumbotron`, which had a background image specified to cover 100vh.
-This pushed the contact form to the bottom making some parts of form invisible/covered by the footer. Removing 100vh fixed the issue.
-<p> <img src="assets/docs/form.PNG" style="min-width:100%" height="400" alt="Form in landscape"></p>
-
-3. Order online buttons were not correctly positioned. After adding different paragraphs of text to wines.html section, it moved all buttons underneath the text to
- different levels of the screen. To fix this issue I had to use position: absolute in CSS which displayed buttons as expected on large and medium screens but created an issue with small sizes 
- screens. Additional fix was to add some bottom margin to paragraphs which provided some breathing space between buttons and text.
-4. In the `navbar`, the company title next to the company logo would not render properly with small screen sizes. As this would push navbar links to the right,
-   cutting off some of the links. I decided to hide the company title for small devices. At later stage of testing I noticed that this would not work in the landscape mode on some small 
-   size screens (Moto 4G) and refactored the code to hide title with small screen sizes and display as a block using Bootstrap's amazing ability code .d-none .d-md-inline .d-xs-none,
-   this resolved the issue.
-5. One of the first Lighthouse reports was showing lower performance, best practices and SEO. Based on that report I refactored the code to add `meta` keywords and description to increase 
-   SEO and also `aria-*` attributes to make better user experience for users of screen readers and other assistive technologies.
-6. I conducted numerous tests of both HTML and  CSS code using [The W3C CSS Validation Service - Jigsaw](https://jigsaw.w3.org/css-validator/) and [The W3C Markup Validation Service validator](https://validator.w3.org/)
-   during various different stages of my project to ensure that codes are valid. Most of the times my reports were with a few minor errors and warnings which could have been easily fixed.
-    <p> <img src="assets/docs/html-error.PNG" style="min-width:100%" height="200" alt="Form in landscape"></p>
-    <p> <img src="assets/docs/css-warnings.PNG" style="min-width:100%" height="500" alt="Form in landscape"></p>
-    <p> <img src="assets/docs/css-validator.PNG" style="min-width:100%" height="200" alt="Form in landscape"></p>
-    
-    
-Post-deployment testing:
-
-
-1. One of the first issues encountered during testing of the deployed website was that images in the gallery and contact form hero image would not display at all.
- Using Mozilla and Google DevTools I found that the error was in the absolute file path. 
- After changing file paths to relative instead of absolute all images in question were rendered as expected. 
-
-2. The entire image gallery would display photographs slightly moved to the right side of the screen.This issue was resolved by adding margin shorthand to the .gallery-image class.
-
-3. The website has been tested for responsiveness using [Am I Responsive](http://ami.responsivedesign.is/).
- 
-4. One of the post-deployment issues brought to my attention was that once hovered over the navigation bar and buttons it would push the other content due to border appearing around links and buttons. 
- To fix this I researched Google and came across a solution on [Stackoverflow](https://stackoverflow.com/questions/18887058/css-hover-creating-border-but-pushing-content).
-5. Lighthouse reports ran for both mobile and desktops.
+<a href="https://github.com/kuzGo/village-winery/tree/master/assets/wireframe">Wireframes</a>
 
 ## Deployment
 
@@ -222,7 +184,7 @@ To clone a repository and work locally on it follow the next steps :
 
     * Embedded `iframe` html code copied from Google maps and added to the existing html code. It has been adjusted to fit project's needs.
 
-* Nishant Kumar, my mentor who taught me how to create `root:` and use variables to easily adjust/change colours in CSS. 
+* Nishant Kumar, my mentor suggested me to create `root:` and use variables to easily adjust/change colours in CSS. 
 
 #### Content
 * The text used to describe different types of wine used for the project has been copied form  [Dublin Fine Wines](dublinfinewines.ie)
@@ -232,4 +194,4 @@ To clone a repository and work locally on it follow the next steps :
 ***
 * I would like to thank my mentor Nishant Kumar for all the support and pieces of advice during  mentoring sessions and sharing his knowledge with me.
 * Great support and motivation came from the CI Slack community and Code Institute tutors.
-* Thanks to the Code Institute for all inspirations and ideas whilst learning and working on the previous different projects. 
+* Thanks to the Code Institute for all inspirations and ideas whilst learning and working on the previous different projects Love Running, Whiskey Drop. 
