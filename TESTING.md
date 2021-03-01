@@ -24,11 +24,12 @@ This pushed the contact form to the bottom making some parts of form invisible/c
 6. I conducted numerous tests of both HTML and  CSS code using [The W3C CSS Validation Service - Jigsaw](https://jigsaw.w3.org/css-validator/) and [The W3C Markup Validation Service validator](https://validator.w3.org/)
    during various different stages of my project to ensure that codes are valid. Most of the times my reports were with a few minor errors and warnings which could have been easily fixed.
 
-    <p><img src="assets/docs/form.PNG" style="min-width:100%" height="400" alt="Form in landscape"></p>
+    <p><img src="assets/docs/html-error.PNG" style="min-width:100%" height="200" alt="HTML Error"></p>
 
    The warnings displayed are due to Jigsaw's inability to validate/recognise certain CSS methods.
 
     <p> <img src="assets/docs/css-warnings.PNG" style="min-width:100%" height="500" alt="CSS Warnings"></p>
+
     <p> <img src="assets/docs/css-validator.PNG" style="min-width:100%" height="200" alt="CSS No error"></p>
     
     
